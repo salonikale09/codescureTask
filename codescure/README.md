@@ -19,7 +19,7 @@ This project is built using React and Redux to fetch and display data from the S
 1. Clone the repository to your local machine.
 
    ```bash
-   git clone https://github.com/your-username/star-wars-data-viewer.git
+   git clone https://github.com/salonikale09/codescureTask.git
 
 ## Available Scripts
 
