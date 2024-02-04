@@ -1,0 +1,89 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+thead {
+  background-color: #4a148c;
+}
+
+th, td {
+  border: 1px solid #1a1a1a;
+  padding: 12px;
+  text-align: left;
+}
+
+tbody tr:hover {
+  background-color: #330066;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 8px;
+  cursor: pointer;
+  background-color: #4a148c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.pagination button:disabled {
+  background-color: #1a1a1a;
+  cursor: not-allowed;
+}
+
+.pagination button:hover {
+  background-color: #7b1fa2;
+}
+
+input[type="text"] {
+  padding: 8px;
+  margin-top: 10px;
+  border: 1px solid #4a148c;
+  border-radius: 4px;
+}
+
+select {
+  padding: 8px;
+  margin-top: 10px;
+  border: 1px solid #4a148c;
+  border-radius: 4px;
+  background-color: #4a148c;
+  color: white;
+}
+
+.species-card {
+  background-color: #4a148c;
+  color: white;
+  padding: 10px;
+  margin-bottom: 70px;
+  border-radius: 5px;
+  text-align: center;
+  width: 300px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+

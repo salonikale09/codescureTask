@@ -1,5 +1,3 @@
-# codescureTask
-
 # Star Wars Data Viewer
 
 Welcome to the Star Wars Data Viewer, a simple web application to explore information about Star Wars characters.
